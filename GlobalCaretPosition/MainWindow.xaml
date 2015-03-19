@@ -1,0 +1,15 @@
+﻿<Window x:Class="GlobalCaretPosition.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Global caret position" Height="166.5" Width="204" Icon="Default Programs.ico">
+    <Grid>
+        <Button Name="button" Content="Start" HorizontalAlignment="Left" Margin="48,104,0,0" VerticalAlignment="Top" Width="97" Click="button_Click"/>
+        <TextBlock Name="tLeft" HorizontalAlignment="Left" Margin="68,37,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <TextBlock Name="tTop" HorizontalAlignment="Left" Margin="68,68,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
+        <Label Content="Left:" HorizontalAlignment="Left" Margin="21,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Top:" HorizontalAlignment="Left" Margin="21,63,0,0" VerticalAlignment="Top"/>
+        <Label Content="Caret position:" HorizontalAlignment="Left" Margin="21,6,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

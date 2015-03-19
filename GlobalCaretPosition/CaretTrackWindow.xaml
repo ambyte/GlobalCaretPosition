@@ -1,0 +1,10 @@
+﻿<Window x:Class="GlobalCaretPosition.CaretTrackWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        Height="61" Width="75" ShowInTaskbar="False" ResizeMode="NoResize" WindowStyle="None" ShowActivated="False" Focusable="False" Topmost="True">
+    <Grid>
+        <Label Name="left" Content="" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Name="top" Content="" HorizontalAlignment="Left" Margin="0,31,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
